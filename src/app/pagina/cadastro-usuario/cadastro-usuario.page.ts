@@ -11,5 +11,14 @@ export class CadastroUsuarioPage implements OnInit {
 
   ngOnInit() {
   }
-
+ /* Comando dos Botões */
+ cadastrar() {
+  console.log('cadastrando...');
+};
+editar() {
+  console.log('editar...');
+};
+cancelar() {
+  console.log('voltar para login...');
+};
 }

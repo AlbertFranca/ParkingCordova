@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login-usuario.page.scss'],
 })
 export class LoginUsuarioPage implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
+  ngOnInit() {}
+  /* parte que comanda os botoes */
+  logar() {
+    console.log('Logando...');
   }
-
 }

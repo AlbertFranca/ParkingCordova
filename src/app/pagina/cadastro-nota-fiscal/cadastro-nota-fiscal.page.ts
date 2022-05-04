@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cadastro-nota-fiscal.page.scss'],
 })
 export class CadastroNotaFiscalPage implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
+  ngOnInit() {}
+  /* parte que comanda os botoes */
+  enviar() {
+    console.log('enviando...');
   }
-
+  qrCode() {
+    console.log('enviando qrCode...');
+  }
 }
